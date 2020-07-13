@@ -168,3 +168,73 @@ span.MuiCheckbox-colorPrimary.Mui-checked{
     }
   }
 }
+
+
+@media screen and (max-width: 575px) {
+  .header {
+    margin-top: 20px ;
+    h1{
+    font-size: 1.5rem;
+    }
+    h4{
+      font-size: .675rem;
+      color: $light-grey;
+    }
+  }
+
+  .converter {
+    position: static;
+    width: calc(100vw - 40px);
+    padding: 20px;
+    margin: 20px;
+  }
+  h2{
+    font-size: .875rem;
+  }
+
+  .TopBar{
+    flex-wrap: wrap-reverse;
+    margin: 0px;
+    justify-content: flex-end;
+    Button {
+      width: 36px;
+      margin-bottom: 15px;
+      margin-left: 0;
+    }
+    .input-field {
+      justify-content: space-between;
+      width: calc(100vw - 80px);
+      padding: 10px 15px;
+      .clear-icon {
+        padding: 3px;
+        font-size: 1rem;
+      }
+      input {
+        width: calc(100vw - 180px);
+        margin-left: 15px;
+        padding: 0;
+        font-size: .875rem;
+      }
+    }
+  }
+  
+  .Card{
+    width: calc(100vw - 80px);
+    margin: 15px 0px;
+    padding: 10px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    :last-child{
+      align-self: flex-end;
+    }
+    h2{
+      font-size: 0.75rem;
+      padding-bottom: 3px;
+    }
+    .close-icon {
+      margin: 5px 0px;
+      color: $grey
+  
+    }
+  }
+}
