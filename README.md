@@ -4,6 +4,8 @@ A currency converter app created using **React**  + **Typescript**  +  **Redux**
 
 Try it yourself at: https://bitcoinconverter.netlify.app/
 
+![](public/images/bc1.PNG)
+
 
 ## Features
 
